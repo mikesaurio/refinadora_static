@@ -3,10 +3,7 @@
 }
 .col-md-4{
 	width: 33%;
-	background:#ccc;
 	float: right;
-	position: fixed;
-
 }
 
 .row{
@@ -23,11 +20,18 @@
 }
 
 .page-content .wrapper {
-    min-width: 90%;
-    width:  90%;
+    min-width: 96%;
+    width:  96%;
      margin-left: 0;
+
    }
 
+
+.documentation{
+	background-color: #ccc;
+	height: 550px;
+    min-height: 550px;
+}
 
 .site-header .wrapper {
     min-width: 80%;
