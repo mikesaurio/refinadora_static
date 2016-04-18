@@ -1,0 +1,40 @@
+.col-md-8{
+	width: 66%;
+}
+.col-md-4{
+	width: 33%;
+	background:#ccc;
+	float: right;
+	position: fixed;
+
+}
+
+.row{
+	width: 100%;
+	display: inline-flex;
+}
+
+.text-center{
+	text-align: center;
+}
+.drop_but{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.page-content .wrapper {
+    min-width: 90%;
+    width:  90%;
+     margin-left: 0;
+   }
+
+
+.site-header .wrapper {
+    min-width: 80%;
+    width:  80%;
+   }
+
+.drop_but {
+  width: 90%;
+  margin: 0 auto;
+}

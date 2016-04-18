@@ -1,11 +1,47 @@
-hola
-
-<form action="#" class="dropzone dz-clickable">
-  <div class="fallback" id="myId">
-    <input name="file" type="file" multiple />
+<div class= "row">
+  <div class="col-md-8">
+    <div class="drop_but"> 
+      <form action="#" class="dropzone dz-clickable drop">
+        <div class="fallback" id="myId">
+          <input name="file" type="file" multiple />
+        </div>
+      </form>
+    <button type="button">validate</button>
+    </div>
   </div>
-</form>
-
+  <div class="col-md-4 text-center">
+    <h3>Documentation</h3>
+    <div id='cssmenu'>
+  		<ul>
+        <li class='has-sub'><a href='#'><span>What is La refinadora?</span></a>
+        <ul>
+          blablablablabla
+        </ul>
+        </li>
+        <li class='has-sub'><a href='#'><span>What is a validator?</span></a>
+          <ul>
+            <li><a href='#'><span></span></a></li>
+            <li><a href='#'><span></span></a></li>
+            <li class='last'><a href='#'><span></span></a></li>
+          </ul>
+        </li>
+        <li class='has-sub'><a href='#'><span>How do I upload a standard?</span></a>
+          <ul>
+            <li><a href='#'><span></span></a></li>
+            <li class='last'><a href='#'><span></span></a></li>
+          </ul>
+        </li>
+        <li class='last has-sub'><a href='#'><span>Contact us</span></a>
+          <ul>
+            <li><a href='#'><span>Civica Digital</span></a></li>
+            <li> <a href='#'><span>Github</span></a></li>
+            <li> <a href='#'><span>Twitter</span></a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
 
 <script>
 	var myDropzone = new window.Dropzone("div#myId", { url: "/file/post"});
