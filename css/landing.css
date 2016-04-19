@@ -2,10 +2,10 @@ body{
   background-color: #F5F5F5 !important;
 }
 .col-md-8{
-	width: 66%;
+	width: 80%;
 }
 .col-md-4{
-	width: 33%;
+	width: 20%;
 	float: right;
 }
 
@@ -16,10 +16,6 @@ body{
 
 .text-center{
 	text-align: center;
-}
-.drop_but{
-	width: 60%;
-	margin: 0 auto;
 }
 
 .page-content .wrapper {
@@ -32,6 +28,9 @@ body{
 .documentation{
 	background-color: #fff;
   padding-top: 20px;
+  padding-right: 8px;
+  height: 100vh;
+
 }
 
 .site-header{
@@ -46,7 +45,7 @@ body{
    }
 
 .drop_but {
-  width: 90%;
+  width: 60%;
   margin: 0 auto;
 }
 
