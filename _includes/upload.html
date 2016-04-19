@@ -1,0 +1,28 @@
+<div class="drop_but"> 
+  <form action="#" class="dropzone dz-clickable drop margin-bottom-input">
+    <div class="fallback" id="dropZoneId">
+      <input name="file" type="file" multiple />
+    </div>
+  </form>
+  <hr class="style-eight"/>
+  <form action="#" class="input-form-url ">
+    <input type="text" class="input-url margin-top-input" placeholder="Insert an URL">
+    <br>
+    <div class="margin-top-input text-left">
+      <h4 class="strong-font">Chose the validators you need</h4>
+      <div class="check-style">
+        {% include checks_validators.html %}
+      </div>
+     </div>
+    <br>
+    <button type="button" class="btn-submit">
+      Validate<span class="icon icon--github">{% include confirm.svg %}</span>
+    </button>
+  </form>
+</div>
+
+
+<script>
+	var myDropzone = new window.Dropzone("div#dropZoneId", { url: "/file/post"});
+	document.onload = draganddrop();
+</script>
