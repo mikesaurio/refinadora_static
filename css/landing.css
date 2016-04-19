@@ -65,10 +65,10 @@ font-weight: 900;
 hr.style-eight {
   padding: 0;
   border: none;
-  border-top: medium double #333;
-  color: #333;
+  border-top: 1px solid #818181;
+  color: #818181;
   text-align: center;
-  width: 50%;
+  width: 80%;
   margin: auto;
 }
 hr.style-eight:after {
@@ -115,4 +115,15 @@ hr.style-eight:after {
   border-radius: 5px;
   border-style: solid;
   border-width: 2px;
+}
+.btn-submit{
+  margin-top: 20px;
+  background-color: #033844;
+  padding: 10px;
+  color: #fff;
+  border-color: #033844;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 2px;
+  font-size: 16px;
 }
