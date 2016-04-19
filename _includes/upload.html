@@ -8,9 +8,14 @@
   <form action="#" class="input-form-url ">
     <input type="text" class="input-url margin-top-input" placeholder="Insert an URL">
     <br>
-    <button type="button" class="btn-submit ">Validate <span class="icon icon--github">{% include confirm.svg %}</span></button>
+    <div class="margin-top-input text-left">
+      {% include checks_validators.html %}
+    </div>
+    <br>
+    <button type="button" class="btn-submit">
+      Validate<span class="icon icon--github">{% include confirm.svg %}</span>
+    </button>
   </form>
-  
 </div>
 
 
