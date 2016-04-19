@@ -9,8 +9,11 @@
     <input type="text" class="input-url margin-top-input" placeholder="Insert an URL">
     <br>
     <div class="margin-top-input text-left">
-      {% include checks_validators.html %}
-    </div>
+      <h4 class="strong-font">Chose the validators you need</h4>
+      <div class="check-style">
+        {% include checks_validators.html %}
+      </div>
+     </div>
     <br>
     <button type="button" class="btn-submit">
       Validate<span class="icon icon--github">{% include confirm.svg %}</span>

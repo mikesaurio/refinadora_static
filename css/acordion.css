@@ -38,10 +38,9 @@
   margin: 0;
 }
 #cssmenu > ul > li > a {
-   font-size: 15px;
+  font-size: 15px;
   display: block;
   color: #818181;
-  text-shadow: 0 1px 1px #fff;
   /* background: #565656; */
  /* background: -moz-linear-gradient(#565656 0%, #323232 100%);*/
   /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #565656), color-stop(100%, #323232)); */
@@ -74,7 +73,7 @@
   background: -webkit-linear-gradient(#fe703b 0%, #fe703b 100%);
   background: linear-gradient(#fe703b 0%, #fe703b 100%);
   color: #fff;
-  text-shadow: 0 1px 1px #000;
+  /*text-shadow: 0 1px 1px #000;*/
   border: 1px solid #fe703b;
 }
 #cssmenu > ul > li.active > a span {

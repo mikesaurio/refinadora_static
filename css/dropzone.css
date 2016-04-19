@@ -193,6 +193,7 @@
       opacity: 0.5; }
   .dropzone .dz-message {
     text-align: center;
+    color: #bbb;
     margin: 2em 0; }
   .dropzone .dz-preview {
     position: relative;

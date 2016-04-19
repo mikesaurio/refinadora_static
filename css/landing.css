@@ -41,12 +41,11 @@ body{
 .site-header{
   border-top: 0px solid #424242 !important;
   border-bottom: 0px solid #e8e8e8 !important;
-  
 }
 
 .site-header .wrapper {
-    min-width: 80%;
-    width:  80%;
+    min-width: 90%;
+    width:  90%;
    }
 
 .drop_but {
@@ -65,6 +64,11 @@ h3.strong-font{
 font-size: 25px;
 color: #033844;
 font-weight: 900;
+}
+
+h4.strong-font{
+  color: #033844;
+  font-weight: 900;
 }
 
 hr.style-eight {
@@ -112,7 +116,8 @@ hr.style-eight:after {
 }
 
 .input-url{
-  width: 80%;
+  width: 95%;
+  font-size: 15px;
   text-align: center;
   margin: auto;
   padding: 10px;
@@ -122,7 +127,7 @@ hr.style-eight:after {
   border-width: 2px;
 }
 .btn-submit{
-  margin-top: 40px;
+  margin-top: 20px;
   background-color: #033844;
   padding: 10px;
   color: #fff;
@@ -139,4 +144,8 @@ hr.style-eight:after {
  */
 .icon-padding {
   padding-left: 3px;
+}
+.check-style{
+  color: #818181;
+  font-size: 14px;
 }
