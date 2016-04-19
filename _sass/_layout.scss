@@ -99,9 +99,12 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding-top: 80px;
     background-color: #fe703b;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
+
 
 .footer-heading {
     font-size: 18px;
